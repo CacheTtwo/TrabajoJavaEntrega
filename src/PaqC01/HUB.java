@@ -39,12 +39,14 @@ public class HUB {
         if (prioridad == 1) {
             for (int i = 9; i >= 0; i--) {
                 if (contenedores[i][0] == null) contenedores[i][0] = contenedor;
+                break;
             }
         }
 
         if (prioridad == 2) {
             for (int i = 9; i >= 0; i--) {
                 if (contenedores[i][1] == null) contenedores[i][1] = contenedor;
+                break;
             }
         }
 
@@ -52,6 +54,7 @@ public class HUB {
             for (int i = 9; i >= 0; i--) {
                 for (int j = 2; j < 12; j++) {
                     if (contenedores[i][j] == null) contenedores[i][j] = contenedor;
+                    break;
                 }
             }
         }
@@ -71,7 +74,7 @@ public class HUB {
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 12; j++) {
-                if (numeroIdentf == contenedores[i][j].getNumeroIdentf()) {
+                if (contenedores[i][j] != null && numeroIdentf == contenedores[i][j].getNumeroIdentf()) {
 
                     if (contenedores[i][j].isAduanas() == true) {
                         conf = "Sí";
@@ -95,11 +98,11 @@ public class HUB {
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 12; j++) {
-                if (contenedores[i][j].getPais() == pais) {
+                if (contenedores[i][j] != null && contenedores[i][j].getPais() == pais) {
                     cantidad += 1;
                 }
             }
         }
-        return cantidad / 10;
+        return cantidad;
     }
 }
