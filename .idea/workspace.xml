@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Entrega del trabajo usando un repositorio sin los .forms">
+    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Soy demasiado bueno.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaqC01/HUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/HUB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaqC01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Main.java" afterDir="false" />
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678473943608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Soy demasiado bueno.">
+      <created>1679678271996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679678271996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entrega del trabajo usando un repositorio sin los .forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entrega del trabajo usando un repositorio sin los .forms" />
+    <MESSAGE value="Soy demasiado bueno." />
+    <option name="LAST_COMMIT_MESSAGE" value="Soy demasiado bueno." />
   </component>
 </project>

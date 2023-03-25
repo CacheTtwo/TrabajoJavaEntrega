@@ -35,38 +35,53 @@ public class HUB {
 
     public void apilaContenedor(Contenedor contenedor) {
         int prioridad = contenedor.getPrioridad();
+        boolean apila = false;
 
         if (prioridad == 1) {
             for (int i = 9; i >= 0; i--) {
-                if (contenedores[i][0] == null) contenedores[i][0] = contenedor;
-                break;
+                if (contenedores[i][0] == null) {
+                    contenedores[i][0] = contenedor;
+                    apila = true;
+                }
+                if(apila == true) break;
             }
         }
 
         if (prioridad == 2) {
             for (int i = 9; i >= 0; i--) {
-                if (contenedores[i][1] == null) contenedores[i][1] = contenedor;
-                break;
+                if (contenedores[i][1] == null) {
+                    contenedores[i][1] = contenedor;
+                    apila = true;
+                }
+                if(apila == true) break;
             }
         }
 
         if (prioridad == 3) {
             for (int i = 9; i >= 0; i--) {
                 for (int j = 2; j < 12; j++) {
-                    if (contenedores[i][j] == null) contenedores[i][j] = contenedor;
-                    break;
+                    if (contenedores[i][j] == null) {
+                        contenedores[i][j] = contenedor;
+                        apila = true;
+                    }
+                    if(apila == true) break;
                 }
+                if(apila == true) break;
             }
         }
     }
 
-    public void desapilaContenedor(int columna) {
+    public Contenedor desapilaContenedor(int columna) {
+        Contenedor c = null;
+
         for (int i = 0; i < 10; i++) {
             if (contenedores[i][columna] != null) {
+                c = contenedores[i][columna];
                 contenedores[i][columna] = null;
                 break;
             }
         }
+        return c;
     }
 
     public String mostrarDatos(int numeroIdentf) {
@@ -98,7 +113,7 @@ public class HUB {
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 12; j++) {
-                if (contenedores[i][j] != null && contenedores[i][j].getPais() == pais) {
+                if (contenedores[i][j] != null && contenedores[i][j].getPais().equals(pais)) {
                     cantidad += 1;
                 }
             }

@@ -6,8 +6,8 @@ public class Main {
 
         // Crear contenedores
         Contenedor cont1 = new Contenedor(1, 1000, "España", false, 1, "Contenedor de alimentos", "Empresa1", "Empresa2");
-        Contenedor cont2 = new Contenedor(2, 2500, "España", true, 2, "Contenedor de ropa", "Empresa3", "Empresa4");
-        //Contenedor cont3 = new Contenedor(3, 3000, "Italia", false, 3, "Contenedor de electrónica", "Empresa5", "Empresa6");
+        Contenedor cont2 = new Contenedor(2, 2500, "España", true, 3, "Contenedor de ropa", "Empresa3", "Empresa4");
+        Contenedor cont3 = new Contenedor(3, 3000, "Italia", false, 3, "Contenedor de electrónica", "Empresa5", "Empresa6");
 
         // Crear un HUB y agregar contenedores
         HUB hub1 = new HUB(new Contenedor[10][12]);
@@ -17,7 +17,7 @@ public class Main {
 
         hub1.apilaContenedor(cont1);
         hub1.apilaContenedor(cont2);
-        //hub1.apilaContenedor(cont3);
+        hub1.apilaContenedor(cont3);
 
         // Mostrar la disposición actual de los contenedores en el HUB
         System.out.println(hub1.toStringHUB());
@@ -30,7 +30,7 @@ public class Main {
         System.out.println();
 
         // Desapilar un contenedor de una columna específica
-        hub1.desapilaContenedor(0);
+        hub1.desapilaContenedor(3);
 
         // Mostrar la disposición actual de los contenedores en el HUB
         System.out.println(hub1.toStringHUB());
