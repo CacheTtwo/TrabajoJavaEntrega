@@ -8,13 +8,13 @@ public class Main {
         Contenedor cont3 = new Contenedor(3, 3000, "Italia", false, 3, "Contenedor de electrónica", "Empresa5", "Empresa6");
 
         //Crear un HUB y agregar contenedores
-        HUB hub1 = new HUB(new Contenedor[10][12]);
-        HUB hub2 = new HUB(new Contenedor[10][12]);
-        HUB hub3 = new HUB(new Contenedor[10][12]);
+        Hub hub1 = new Hub();
+        Hub hub2 = new Hub();
+        Hub hub3 = new Hub();
 
         //Crear un puerto y rellenarlo con 3 hubs
         Puerto p1 = new Puerto();
-        p1.setPuerto(new HUB[] {hub1, hub2, hub3});
+        p1.setPuerto(new Hub[] {hub1, hub2, hub3});
 
         //Prueba de métodos de la clase Puerto
         System.out.println("Hub 1 (inicialmente):");
@@ -36,7 +36,11 @@ public class Main {
         System.out.println(p1.mostrarDatos(0, 2));
         System.out.println();
 
-        System.out.println("Cantidad de contenedores procedentes de España:");
-        System.out.println(p1.ContenedoresPorPais(0, "España"));
+        System.out.println("Cantidad de contenedores procedentes de España en el hub 1:");
+        System.out.println(p1.contenedoresPorPais1(0, "España"));
+        System.out.println();
+
+        System.out.println("Cantidad de contenedores procedentes de España en todo el puerto:");
+        System.out.println(p1.contenedoresPorPais2("España"));
     }
 }

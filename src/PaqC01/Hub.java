@@ -1,20 +1,14 @@
 package PaqC01;
 
-import java.util.Objects;
-
-public class HUB {
+public class Hub {
     private Contenedor[][] contenedores;
 
-    public HUB(Contenedor[][] contenedores) {
+    public Hub() {
         this.contenedores = new Contenedor[10][12];
     }
 
     public Contenedor[][] getContenedores() {
         return contenedores;
-    }
-
-    public void setContenedores(Contenedor[][] contenedores) {
-        this.contenedores = contenedores;
     }
 
     public String toStringHUB() {
@@ -108,7 +102,7 @@ public class HUB {
         return "No hay ningún contenedor almacenado con ese número de identificación";
     }
 
-    public int ContenedoresPorPais(String pais) {
+    public int contenedoresPorPais(String pais) {
         int cantidad = 0;
 
         for (int i = 0; i < 10; i++) {

@@ -32,69 +32,36 @@ public class Contenedor {
             this.nombreEmpresaRecibe = nombreEmpresaRecibe;
         }
     }
-    public Contenedor(){}
 
     public int getNumeroIdentf() {
         return numeroIdentf;
-    }
-
-    public void setNumeroIdentf(int numeroIdentf) {
-        this.numeroIdentf = numeroIdentf;
     }
 
     public int getPesoCont() {
         return pesoCont;
     }
 
-    public void setPesoCont(int pesoCont) {
-        this.pesoCont = pesoCont;
-    }
-
     public String getPais() {
         return pais;
-    }
-
-    public void setPais(String pais) {
-        this.pais = pais;
     }
 
     public boolean isAduanas() {
         return aduanas;
     }
 
-    public void setAduanas(boolean aduanas) {
-        this.aduanas = aduanas;
-    }
-
     public int getPrioridad() {
         return prioridad;
-    }
-
-    public void setPrioridad(int prioridad) {
-        this.prioridad = prioridad;
     }
 
     public String getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     public String getNombreEmpresaEnvia() {
         return nombreEmpresaEnvia;
     }
 
-    public void setNombreEmpresaEnvia(String nombreEmpresaEnvia) {
-        this.nombreEmpresaEnvia = nombreEmpresaEnvia;
-    }
-
     public String getNombreEmpresaRecibe() {
         return nombreEmpresaRecibe;
-    }
-
-    public void setNombreEmpresaRecibe(String nombreEmpresaRecibe) {
-        this.nombreEmpresaRecibe = nombreEmpresaRecibe;
     }
 }

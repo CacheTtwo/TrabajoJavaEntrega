@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Me falta tan solo implementar el método mostrarDatos y el toString en la clase puerto (creo). Tengo que ver si implementar también contenedoresPorPais. También arreglé lo del método apilaContenedor que los break seguían dando problemas.">
+    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaqC01/Contenedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Contenedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaqC01/HUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Hub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaqC01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaqC01/Puerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Puerto.java" afterDir="false" />
     </list>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679749020076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente).">
+      <created>1679765891464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679765891464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,7 @@
     <MESSAGE value="Entrega del trabajo usando un repositorio sin los .forms" />
     <MESSAGE value="Soy demasiado bueno." />
     <MESSAGE value="Me falta tan solo implementar el método mostrarDatos y el toString en la clase puerto (creo). Tengo que ver si implementar también contenedoresPorPais. También arreglé lo del método apilaContenedor que los break seguían dando problemas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Me falta tan solo implementar el método mostrarDatos y el toString en la clase puerto (creo). Tengo que ver si implementar también contenedoresPorPais. También arreglé lo del método apilaContenedor que los break seguían dando problemas." />
+    <MESSAGE value="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente)." />
   </component>
 </project>
