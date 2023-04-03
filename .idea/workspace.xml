@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TrabajoJavaEntrega:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente).">
+    <list default="true" id="98989301-2e4c-498b-824d-e1394f5cb769" name="Changes" comment="Arreglo de los problemas comentados en clase.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaqC01/Contenedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Contenedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaqC01/HUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Hub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaqC01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaqC01/Puerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaqC01/Puerto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Cache documents/Code/Java/Lab2Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Cache documents/Code/Java/Lab2Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679765891464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Arreglo de los problemas comentados en clase.">
+      <created>1680453858065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680453858065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +121,7 @@
     <MESSAGE value="Soy demasiado bueno." />
     <MESSAGE value="Me falta tan solo implementar el método mostrarDatos y el toString en la clase puerto (creo). Tengo que ver si implementar también contenedoresPorPais. También arreglé lo del método apilaContenedor que los break seguían dando problemas." />
     <MESSAGE value="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aparentemente el trabajo parece terminado (los cambios pedidos están completos y todo funciona correctamente)." />
+    <MESSAGE value="Arreglo de los problemas comentados en clase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo de los problemas comentados en clase." />
   </component>
 </project>
