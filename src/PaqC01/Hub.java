@@ -20,7 +20,7 @@ public class Hub {
                 } else {
                     result += "V";  //V significa vacío
                 }
-                result += "\t";
+                result += "  ";
             }
             result += "\n";
         }
