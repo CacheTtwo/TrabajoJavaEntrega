@@ -20,14 +20,14 @@ public class Hub {
                 } else {
                     result += "V";  //V significa vacío
                 }
-                result += "  ";
+                result += "    ";
             }
             result += "\n";
         }
         return result;
     }
 
-    public void apilaContenedor(Contenedor contenedor) {
+    public boolean apilaContenedor(Contenedor contenedor) {
         int prioridad = contenedor.getPrioridad();
         boolean apila = false;
 
@@ -63,6 +63,10 @@ public class Hub {
                 if(apila == true) break;
             }
         }
+
+        if(apila == true) {
+            return true;
+        } else return false;
     }
 
     public Contenedor desapilaContenedor(int columna) {
@@ -78,28 +82,15 @@ public class Hub {
         return c;
     }
 
-    public String mostrarDatos(int numeroIdentf) {
-        String conf;
-
+    public Contenedor mostrarDatos(int numeroIdentf) {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 12; j++) {
                 if (contenedores[i][j] != null && numeroIdentf == contenedores[i][j].getNumeroIdentf()) {
-
-                    if (contenedores[i][j].isAduanas() == true) {
-                        conf = "Sí";
-                    } else conf = "No";
-
-                    return "Peso: " + contenedores[i][j].getPesoCont() + "\n" +
-                            "País: " + contenedores[i][j].getPais() + "\n" +
-                            "Inspección en aduanas: " + conf + "\n" +
-                            "Prioridad: " + contenedores[i][j].getPrioridad() + "\n" +
-                            "Descripción: " + contenedores[i][j].getDescripcion() + "\n" +
-                            "Empresa emisora: " + contenedores[i][j].getNombreEmpresaEnvia() + "\n" +
-                            "Empresa receptora: " + contenedores[i][j].getNombreEmpresaRecibe() + "\n";
+                    return contenedores[i][j];
                 }
             }
         }
-        return "No hay ningún contenedor almacenado con ese número de identificación";
+        return null;
     }
 
     public int contenedoresPorPais(String pais) {
