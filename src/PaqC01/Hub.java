@@ -1,6 +1,8 @@
 package PaqC01;
 
-public class Hub {
+import java.io.Serializable;
+
+public class Hub implements Serializable {
     private Contenedor[][] contenedores;
 
     public Hub() {

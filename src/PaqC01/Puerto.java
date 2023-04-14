@@ -1,15 +1,12 @@
 package PaqC01;
 
-public class Puerto {
+import java.io.Serializable;
+
+public class Puerto implements Serializable {
     private Hub[] puerto;
-    private boolean[] lleno;
 
     public Puerto() {
         this.puerto = new Hub[3];
-        this.lleno = new boolean[3];
-        for(int i = 0; i < 3; i++) {
-            this.lleno[i] = false;
-        }
     }
 
     public Hub[] getPuerto() {
